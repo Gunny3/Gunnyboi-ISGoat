@@ -1,86 +1,34 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>highzy</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-      font-family: 'Arial', sans-serif;
-      color: white;
-      text-align: center;
-    }
-    #particles-js {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
-      background-size: cover;
-      z-index: -1;
-    }
-    .content {
-      position: relative;
-      top: 60px;
-    }
-    .profile-pic {
-      width: 150px;
-      border-radius: 50%;
-      border: 3px solid #fff;
-    }
-    h1 {
-      font-size: 40px;
-      margin-top: 20px;
-    }
-    p {
-      color: #aaa;
-      margin-bottom: 30px;
-    }
-    .button {
-      display: block;
-      margin: 20px auto;
-      padding: 15px 30px;
-      background: rgba(255, 255, 255, 0.1);
-      border: none;
-      border-radius: 12px;
-      color: white;
-      font-size: 18px;
-      text-decoration: none;
-      width: 250px;
-      backdrop-filter: blur(10px);
-    }
-    .button:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
-    .icon-bar img {
-      width: 40px;
-      margin: 0 10px;
-      filter: invert(100%);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>highzy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div id="particles-js"></div>
-
-<div class="content">
-  <img src="https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22930691ad17112b673dd88237a7ac622a.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-04-15T12%3A33%3A24.478Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F12d5f51b5365489f%2F930691ad17112b673dd88237a7ac622a.jpg%3FExpires%3D1839414804%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DTMBErElLXDgTf5pjlx14f9NmbKeVoR~BJqjU0s6wm~EmU0euyWKTcnEJot8FhhKuNPzJ7Q~lTiqAMJMPG351tVmze0hMMc44-kOi4AlIjqaB7feu2UqjsO9p1nRXY4afya4XbiDc~FVnlghLPclZ-A6fYLzW894rrwPatkFaHt5Z8UQqxlH4j8lLyqR3-gJp9Ej~xOyuD0Nb~Hy~ZOwn7JpBlg6Qi6IU5fVm5EdFAz4Wx6JUyCaV5ftRm~DnVPFwDC9AyJk966bUahiCo63bImcY4WCjhLUIRxs6ZKdU0MhVp8vrPiyTXNH-0pCopw1QWW3q8CKNGV1kuc5hAwZMiA__%22%7D" alt="Profile Picture" class="profile-pic">
-  <h1>GunnyBoi</h1>
-  <p>GunnyBoi-IsGoat - currently doing nothing</p>
-
-  <div class="icon-bar">
-    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord"></a>
-    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
-  </div>
-
-  <a class="button" href="#">Discord</a>
-  <a class="button" href="#">Instagram</a>
-
-  <p style="margin-top:50px; color:#555;">👁️ 9,999,999</p>
-</div>
-
+    <div class="background"></div>
+    <div class="container">
+        <img src="assets/profile.jpg" alt="Profile" class="profile-pic">
+        <h1>highzy</h1>
+        <p class="status">currently doing nothing</p>
+        <div class="icons">
+            <a href="#"><img src="assets/discord.png" alt="Discord"></a>
+            <a href="#"><img src="assets/github.png" alt="GitHub"></a>
+        </div>
+        <div class="user-card">
+            <img src="assets/profile.jpg" alt="Profile">
+            <div>
+                <h2>highzy</h2>
+                <span class="online-status">● Online</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <a href="#" class="btn">Discord</a>
+            <a href="#" class="btn">Instagram</a>
+        </div>
+        <p class="views">👁 9,999,999</p>
+    </div>
 </body>
 </html>
