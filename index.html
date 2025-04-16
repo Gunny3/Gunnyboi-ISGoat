@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>highzy</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      text-align: center;
+    }
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      z-index: -1;
+    }
+    .content {
+      position: relative;
+      top: 60px;
+    }
+    .profile-pic {
+      width: 150px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+    }
+    h1 {
+      font-size: 40px;
+      margin-top: 20px;
+    }
+    p {
+      color: #aaa;
+      margin-bottom: 30px;
+    }
+    .button {
+      display: block;
+      margin: 20px auto;
+      padding: 15px 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      border-radius: 12px;
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      width: 250px;
+      backdrop-filter: blur(10px);
+    }
+    .button:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .icon-bar img {
+      width: 40px;
+      margin: 0 10px;
+      filter: invert(100%);
+    }
+  </style>
+</head>
+<body>
 
+<div id="particles-js"></div>
+
+<div class="content">
+  <img src="https://your-image-link-here.jpg" alt="Profile Picture" class="profile-pic">
+  <h1>highzy</h1>
+  <p>highzy - currently doing nothing</p>
+
+  <div class="icon-bar">
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+  </div>
+
+  <a class="button" href="#">Discord</a>
+  <a class="button" href="#">Instagram</a>
+
+  <p style="margin-top:50px; color:#555;">👁️ 9,999,999</p>
+</div>
+
+</body>
+</html>
